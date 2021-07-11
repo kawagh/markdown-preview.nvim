@@ -65,6 +65,12 @@
 .markdown-body > *:last-child {
   margin-bottom: 0 !important;
 }
+
+/* rightside-toc */
+.markdown-body .table-of-contents {
+  position:fixed;
+  left: 1400px;
+}
 .markdown-body .table-of-contents ol {
   list-style: none;
 }
